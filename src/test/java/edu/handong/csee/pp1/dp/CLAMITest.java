@@ -75,8 +75,7 @@ public class CLAMITest {
 		
 		// TASK5 TODO Use this method to find the best cutoff
 		
-		String bestCutoff = "50";
-		
+		String bestCutoff = "88";
 		String[] args = {"-f","data/Apache.arff","-l","isDefective","-p", "TRUE", "-m", "-c", bestCutoff};
 
 		CLAMI.main(args);
