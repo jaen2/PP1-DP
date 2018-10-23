@@ -28,9 +28,14 @@ public class MainTest {
 		// 위 test main을 참고하여 실행하면 됨.
 		String[] args = {"/Users/jaen/Downloads/JavaDocs","data/JavaDocs.arff"};
 		// String[] args = {"/use/this/style/for/your/path"}; // for mac users
-		
+			
 		assertEquals(args.length,2);
-		
+			
 		Main.main(args);
+		
+		String[] args1 = {"/Users/jaen/Downloads/JavaTrainings","data/JavaTrainings.arff"};
+		assertEquals(args1.length,2);
+		Main.main(args1);
 	}
+	
 }
